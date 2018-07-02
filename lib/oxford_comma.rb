@@ -9,6 +9,7 @@ def oxford_comma(array)
   else 
     list = array.join(' and ')
     return list
+  end
 end
 
 puts oxford_comma(veggies)
