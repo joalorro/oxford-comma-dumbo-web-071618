@@ -1,5 +1,5 @@
 veggies = ['okra', 'bok choy', 'kale']
-duos = ['Cheech', "Chong"]
+duo = ['Cheech', "Chong"]
 
 def oxford_comma(array)
   if array.length > 2
@@ -14,4 +14,4 @@ def oxford_comma(array)
 end
 
 puts oxford_comma(veggies)
-puts oxford_comma(duos)
+puts oxford_comma(duo)
