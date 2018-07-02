@@ -4,4 +4,4 @@ def oxford_comma(array)
   array.join(',')
 end
 
-oxford_comma(veggies)
+puts oxford_comma(veggies)
