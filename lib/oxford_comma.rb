@@ -1,11 +1,14 @@
 veggies = ['okra', 'bok choy', 'kale']
 
 def oxford_comma(array)
-  last = array.last
-  array.pop
-  sen = array.join(', ')
-  
-  return "#{sen}, and #{last}"
+  if array.length > 2
+    last = array.last
+    array.pop
+    list = array.join(', ')
+    return "#{list}, and #{last}"
+  else 
+    list = array.join(' and ')
+    return list
 end
 
 puts oxford_comma(veggies)
