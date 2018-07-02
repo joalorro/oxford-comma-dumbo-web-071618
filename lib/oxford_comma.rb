@@ -1,3 +1,7 @@
+veggies ['okra', 'bok choy', 'kale']
+
 def oxford_comma(array)
-  for i in 0 .. array.length
+  array.join(',')
 end
+
+oxford_comma(veggies)
